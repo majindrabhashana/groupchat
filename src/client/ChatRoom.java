@@ -43,7 +43,7 @@ public class ChatRoom extends Window {
         lblName.setText(name);
 
         try {
-            socket = new Socket("localhost", 20001);
+            socket = new Socket("localhost", 20002);
             outputStream = new DataOutputStream(socket.getOutputStream());
             inputStream = new DataInputStream(socket.getInputStream());
 

@@ -15,7 +15,7 @@ public class Server {
 
     Socket socket;
     ServerSocket serverSocket;
-    final int port = 20001;
+    final int port = 20002;
     String name;
 
     Server(){
